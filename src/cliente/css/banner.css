@@ -1,0 +1,144 @@
+/* estos estilos se llaman a traves de las clases */
+
+/* esto me agrega la imagen al fondo de la pagina */
+.azt_cont_banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/static/img/fondo1.jpg");
+}
+
+/* se crea el div que tiene los titulos principales */
+.azt_sombra{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 65%;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    margin: auto;
+}
+
+/* se agrega la linea abajo del titulo */
+.azt_sombra hr{
+    border-top: 1px solid #fff;
+}
+
+/* esto redimenciona el texto con etiqueta <h1> para los diferentes tamaños de pantalla */
+.azt_sombra h1{
+    font-size: 6vw;
+    margin-bottom: 10px;
+}
+
+/* esto redimenciona el texto con etiqueta <p> para los diferentes tamaños de pantalla */
+.azt_sombra p{
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+}
+
+/* da margen al contenedor de los links */
+.azt_cont_banner_link{
+    margin: 15px;
+    position: relative;
+}
+
+/* mantine los links en bloques horizontales, añade color y quita los enlaces */
+/* etiqueta <a> */
+.azt_cont_banner_link a{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+/* efecto de cambiar de color los link al pasar el cursor */
+.azt_cont_banner_link a:hover{
+    background-color: #fff;
+    color: #111;
+}
+
+/* crea una clase para que se apliquen los efectos de keyframes */
+.azt_banner_link{
+    opacity: 0;
+    animation: aparecer_de_arriba 1s;
+    -webkit-animation: aparecer_de_arriba 1s;
+    
+    /* esto dice lo que tenga esta clase aplicarle el efecto */
+    animation-fill-mode: forwards;
+}
+
+.azt_banner_link_1{
+    opacity: 0;
+    animation: aparecer_de_arriba 1s;
+    -webkit-animation: aparecer_de_arriba 1s;
+    
+    /* esto dice lo que tenga esta clase aplicarle el efecto */
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.azt_banner_link_2{
+    opacity: 0;
+    animation: aparecer_de_arriba 1s;
+    -webkit-animation: aparecer_de_arriba 1s;
+    
+    /* esto dice lo que tenga esta clase aplicarle el efecto */
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+/*mision / vision*/
+.azt_sec_2{
+    background-color: rgb(228, 228, 228);
+    padding: 2%;
+    text-align: center;
+}
+
+.azt_sec_2 img{
+    height: 25vh;
+    width: 90%;
+}
+
+.azt_sec_2 p{
+    text-align: justify;
+}
+
+
+
+/* estilos de la seccion imagenes */
+/* mantiene la imagen en el fondo */
+.azt_cont_banner_sec_3{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/static/img/fondo2.jpg");
+    position: relative;
+    padding: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+/* crea el marco negro para el texto y la imagen */
+.azt_cont_banner_sec_3 .row{
+    background-color: rgb(1, 1, 1, 0.7);
+    color: #fff;
+    padding: 2%;
+}
+
+/* da estilos a la imagen */
+.azt_cont_img{
+    padding: 5%;
+}

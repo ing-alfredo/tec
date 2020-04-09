@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* modifica el color del navbar */
+.azt_navbar{
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* esto hace que acepte los dos tipos de estilo, el creado aqui y el de bootstrap */
+.azt_navbar div, .azt_navbar ul{
+    background-color: transparent !important;
+}
+
+.azt_navbar .azt_logo{
+    height: 60px;
+}
+
+
+/*SECCION DE HABILIDADES*/
+.azt_cont_sec_hab{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.azt_cont_sec_hab li{
+    text-align: justify;
+    /* font-size: 16px; */
+}
+
+
+/* se da estilo a la primera seccion */
+.azt_cont_sec_1{
+    padding: 4%;
+}
+
+.azt_cont_sec_1_link{
+    padding: 5%;
+}
+
+.azt_cont_sec_1_link a{
+    width: 200px;
+}
+
+.azt_cont_sec_1_link hr{
+    border-top: 1px solid rgba(1, 1, 1, 0.3);
+}
+
+
+
+/* estilos para el footer */
+.azt_cont_footer{
+    background-color: rgba(1, 1, 1, 0.8);
+    padding: 5%;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.azt_cont_footer a{
+color: #fff;
+text-decoration: none;
+display: block;
+}
+
+.azt_cont_img_footer{
+    padding: 7%;
+}
