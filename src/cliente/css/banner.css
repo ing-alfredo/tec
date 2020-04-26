@@ -7,7 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/static/img/fondo1.jpg");
+    background-image: url("/static/img/itss1.jpg");
 }
 
 /* se crea el div que tiene los titulos principales */
@@ -124,7 +124,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/static/img/fondo2.jpg");
+    background-image: url("/static/img/itss2.jpg");
     position: relative;
     padding: 10%;
     margin-top: 200px;
