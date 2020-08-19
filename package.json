@@ -4,7 +4,7 @@
   "description": "web con node js",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon --exec node src/server.js",
+    "start": "node src/server.js",
     "pro": "webpack -p --progress"
   },
   "author": "luxho lopez",
