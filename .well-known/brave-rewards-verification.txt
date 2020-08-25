@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: industrial-tec.herokuapp.com
+Token: ca9c4b491d2ed64e63066d38e0285181d85d360b33284624d3a59302b5b6ecfe
